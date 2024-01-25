@@ -1,6 +1,6 @@
 use crate::day1::guessing_game;
 
-pub mod day1;
+pub mod project1;
 
 fn main() {
     guessing_game();
