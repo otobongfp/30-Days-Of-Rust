@@ -11,7 +11,7 @@ pub fn counter(){
         .read_line(&mut value)
         .expect("Here is the input");
     
-    //convert to uint
+    //by default the input is a string to we convert to an int
     let mut value:u32 = value.trim().parse().expect("Could not convert");
 
     loop{
